@@ -1,0 +1,444 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".signUp4">
+
+    <Button
+        android:id="@+id/done_signUp4_btn"
+        android:layout_width="130dp"
+        android:layout_height="57dp"
+        android:layout_marginEnd="78dp"
+        android:layout_marginRight="78dp"
+        android:text="@string/done"
+        app:backgroundTint="#2196F3"
+        app:layout_constraintBaseline_toBaselineOf="@+id/prev_signUp4_btn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/prev_signUp4_btn" />
+
+    <Button
+        android:id="@+id/prev_signUp4_btn"
+        android:layout_width="122dp"
+        android:layout_height="53dp"
+        android:layout_marginStart="75dp"
+        android:layout_marginLeft="75dp"
+        android:layout_marginEnd="28dp"
+        android:layout_marginRight="28dp"
+        android:layout_marginBottom="67dp"
+        android:text="@string/previous"
+        app:backgroundTint="#2196F3"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/done_signUp4_btn"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/scrollView3" />
+
+    <TextView
+        android:id="@+id/titleTxt_signUp4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="95dp"
+        android:layout_marginBottom="29dp"
+        android:text="@string/title2"
+        android:textColor="#2196F3"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/describeTxt"
+        app:layout_constraintStart_toStartOf="@+id/selectAll_txt"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/describeTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="7dp"
+        android:layout_marginRight="7dp"
+        android:text="@string/describe"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/selectAll_txt"
+        app:layout_constraintEnd_toEndOf="@+id/selectAll_txt"
+        app:layout_constraintTop_toBottomOf="@+id/titleTxt_signUp4" />
+
+    <TextView
+        android:id="@+id/selectAll_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="1dp"
+        android:text="@string/selectAll"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toTopOf="@+id/scrollView3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/describeTxt" />
+
+    <ScrollView
+        android:id="@+id/scrollView3"
+        android:layout_width="335dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="59dp"
+        app:layout_constraintBottom_toTopOf="@+id/prev_signUp4_btn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/selectAll_txt">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <CheckBox
+                android:id="@+id/describe1_chck"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="onCheckboxClicked"
+                android:text="@string/affectionate" />
+
+            <CheckBox
+                android:id="@+id/describe2_chck"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="onCheckboxClicked"
+                android:text="@string/anxious" />
+
+            <CheckBox
+                android:id="@+id/describe3_chck"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/athletic"
+                android:onClick="onCheckboxClicked"/>
+
+            <CheckBox
+                android:id="@+id/describe4_chck"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/brave"
+                android:onClick="onCheckboxClicked"/>
+
+            <CheckBox
+                android:id="@+id/describe5_chck"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/bright"
+                android:onClick="onCheckboxClicked"/>
+
+            <CheckBox
+                android:id="@+id/describe6_chck"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/cat_friendly"
+                android:onClick="onCheckboxClicked"/>
+
+            <CheckBox
+                android:id="@+id/describe7_chck"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/cheeky"
+                android:onClick="onCheckboxClicked"/>
+
+            <CheckBox
+                android:id="@+id/describe8_chck"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/cheerful"
+                android:onClick="onCheckboxClicked"/>
+
+            <CheckBox
+                android:id="@+id/describe9_chck"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/clever"
+                android:onClick="onCheckboxClicked"/>
+
+            <CheckBox
+                android:id="@+id/describe10_chck"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/clumsy"
+                android:onClick="onCheckboxClicked"/>
+
+            <CheckBox
+                android:id="@+id/describe11_chck"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/courageous"
+                android:onClick="onCheckboxClicked"/>
+
+            <CheckBox
+                android:id="@+id/describe12_chck"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/crate_trained"
+                android:onClick="onCheckboxClicked"/>
+
+            <CheckBox
+                android:id="@+id/describe13_chck"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/crazy"
+                android:onClick="onCheckboxClicked"/>
+
+            <CheckBox
+                android:id="@+id/describe14_chck"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/cuddly"
+                android:onClick="onCheckboxClicked"/>
+
+            <CheckBox
+                android:id="@+id/describe15_chck"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/curious"
+                android:onClick="onCheckboxClicked"/>
+
+            <CheckBox
+                android:id="@+id/desribe16_chck"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/daring"
+                android:onClick="onCheckboxClicked"/>
+
+            <CheckBox
+                android:id="@+id/describe17_chck"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/defiant"
+                android:onClick="onCheckboxClicked"/>
+
+            <CheckBox
+                android:id="@+id/describe18_chck"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/demanding"
+                android:onClick="onCheckboxClicked"/>
+
+            <CheckBox
+                android:id="@+id/describe19_chck"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/dependent"
+                android:onClick="onCheckboxClicked"/>
+
+            <CheckBox
+                android:id="@+id/describe20_chck"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/disobedient"
+                android:onClick="onCheckboxClicked"/>
+
+            <CheckBox
+                android:id="@+id/describe21_chck"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/eager_to_please"
+                android:onClick="onCheckboxClicked"/>
+
+            <CheckBox
+                android:id="@+id/describe22_chck"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/easy_to_train"
+                android:onClick="onCheckboxClicked"/>
+
+            <CheckBox
+                android:id="@+id/describe23_chck"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/gentle"
+                android:onClick="onCheckboxClicked"/>
+
+            <CheckBox
+                android:id="@+id/describe24_chck"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/greedy"
+                android:onClick="onCheckboxClicked"/>
+
+            <CheckBox
+                android:id="@+id/describe25_chck"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/half_obedient"
+                android:onClick="onCheckboxClicked"/>
+
+            <CheckBox
+                android:id="@+id/describe26_chck"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/housebroken"
+                android:onClick="onCheckboxClicked"/>
+
+            <CheckBox
+                android:id="@+id/describe27_chck"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/independent"
+                android:onClick="onCheckboxClicked"/>
+
+            <CheckBox
+                android:id="@+id/describe28_chck"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/intelligent"
+                android:onClick="onCheckboxClicked"/>
+
+            <CheckBox
+                android:id="@+id/describe29_chck"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/joyful"
+                android:onClick="onCheckboxClicked"/>
+
+            <CheckBox
+                android:id="@+id/describe30_chck"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/kid_friendly"
+                android:onClick="onCheckboxClicked"/>
+
+            <CheckBox
+                android:id="@+id/describe31_chck"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/leashed"
+                android:onClick="onCheckboxClicked"/>
+
+            <CheckBox
+                android:id="@+id/describe32_chck"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/lazy"
+                android:onClick="onCheckboxClicked"/>
+
+            <CheckBox
+                android:id="@+id/describe33_chck"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/naughty"
+                android:onClick="onCheckboxClicked"/>
+
+            <CheckBox
+                android:id="@+id/describe34_chck"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/disobedient"
+                android:onClick="onCheckboxClicked"/>
+
+            <CheckBox
+                android:id="@+id/describe35_chck"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/people_friendly"
+                android:onClick="onCheckboxClicked"/>
+
+            <CheckBox
+                android:id="@+id/desribe36_chck"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/playful"
+                android:onClick="onCheckboxClicked"/>
+
+            <CheckBox
+                android:id="@+id/describe37_chck"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/potty_trained"
+                android:onClick="onCheckboxClicked"/>
+
+            <CheckBox
+                android:id="@+id/describe38_chck"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/quirky"
+                android:onClick="onCheckboxClicked"/>
+
+            <CheckBox
+                android:id="@+id/describe39_chck"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/rambunctious"
+                android:onClick="onCheckboxClicked"/>
+
+            <CheckBox
+                android:id="@+id/describe40_chck"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/rescued"
+                android:onClick="onCheckboxClicked"/>
+
+            <CheckBox
+                android:id="@+id/described41_chck"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sensitive"
+                android:onClick="onCheckboxClicked"/>
+
+            <CheckBox
+                android:id="@+id/describe42_chck"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/submissive"
+                android:onClick="onCheckboxClicked"/>
+
+            <CheckBox
+                android:id="@+id/describe43_chck"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sweet"
+                android:onClick="onCheckboxClicked"/>
+
+            <CheckBox
+                android:id="@+id/describe44_chck"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/territorial"
+                android:onClick="onCheckboxClicked"/>
+
+            <CheckBox
+                android:id="@+id/describe45_chck"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/trainable"
+                android:onClick="onCheckboxClicked"/>
+
+            <CheckBox
+                android:id="@+id/describe46_chck"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/trained"
+                android:onClick="onCheckboxClicked"/>
+
+            <CheckBox
+                android:id="@+id/describe47_chck"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/vocal"
+                android:onClick="onCheckboxClicked"/>
+
+            <CheckBox
+                android:id="@+id/describe48_chck"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/well_trained"
+                android:onClick="onCheckboxClicked"/>
+
+            <CheckBox
+                android:id="@+id/describe49_chck"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/wild"
+                android:onClick="onCheckboxClicked"/>
+
+            <CheckBox
+                android:id="@+id/describe50_chck"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/willing_to_learn"
+                android:onClick="onCheckboxClicked"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

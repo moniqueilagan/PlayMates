@@ -1,0 +1,129 @@
+<resources>
+    <string name="app_name">PlayMates</string>
+    <string name="title">TELL US MORE ABOUT YOUR PET</string>
+    <string name="previous">PREVIOUS</string>
+    <string name="done">DONE</string>
+    <string name="energy">WHAT IS YOUR DOG\'S ENERGY LEVEL?</string>
+    <string name="temperment">IS YOUR DOG SHY OR OUTGOING?</string>
+    <string name="weight">WHAT SIZE IS YOUR DOG?</string>
+    <string name="describe">DESCRIBE YOUR DOG.</string>
+    <string name="login">LOGIN</string>
+    <string name="signup">SIGNUP</string>
+    <string name="first">FIRST NAME</string>
+    <string name="last">LAST NAME</string>
+    <string name="email">EMAIL</string>
+    <string name="username">USERNAME</string>
+    <string name="password">PASSWORD</string>
+    <string name="next">NEXT</string>
+    <string name="description">TODO</string>
+    <string name="petName">PET NAME</string>
+    <string name="petBio">SHORT BIO OF YOUR DOG.</string>
+    <string name="age">HOW OLD IS YOUR DOG?</string>
+    <string name="spayNeuter">IS YOUR DOG SPAYED OR NEUTERED?</string>
+    <string name="upload">UPLOAD PHOTO</string>
+    <string name="match">VIEW MATCHES</string>
+    <string name="back">BACK</string>
+    <string name="filter">FILTER</string>
+    <string name="title2">ONE LAST THING...</string>
+    <string-array name="ageArray">
+        <item>Puppy (Less than 1 Year Old)</item>
+        <item>Young (1 to 3 Years Old)</item>
+        <item>Adult (4 to 9 Years Old)</item>
+        <item>Senior (10 Years Old or Above)</item>
+    </string-array>
+    <string-array name="spay_or_neuter_array">
+        <item>Yes</item>
+        <item>No</item>
+    </string-array>
+    <string-array name="dogSize_array">
+        <item>XSMALL (Less than 20 lbs)</item>
+        <item>SMALL (20 to 30 lbs)</item>
+        <item>MEDIUM (30 to 50 lbs)</item>
+        <item>LARGE (50 to 90 lbs)</item>
+        <item>XLARGE (More than 90 lbs)</item>
+    </string-array>
+    <string-array name="energyArray">
+        <item>HIGH</item>
+        <item>MEDIUM</item>
+        <item>LOW</item>
+    </string-array>
+    <string-array name="tempermentArray">
+        <item>SHY</item>
+        <item>OUTGOING</item>
+        <item>NOT SURE</item>
+    </string-array>
+    <string name="selectAll">(SELECT ALL THAT APPLY)</string>
+    <string name="affectionate">affectionate</string>
+    <string name="anxious">anxious</string>
+    <string name="athletic">athletic</string>
+    <string name="brave">brave</string>
+    <string name="bright">bright</string>
+    <string name="cat_friendly">cat-friendly</string>
+    <string name="cheeky">cheeky</string>
+    <string name="cheerful">cheerful</string>
+    <string name="clever">clever</string>
+    <string name="clumsy">clumsy</string>
+    <string name="courageous">courageous</string>
+    <string name="crate_trained">crate-trained</string>
+    <string name="crazy">crazy</string>
+    <string name="cuddly">cuddly</string>
+    <string name="curious">curious</string>
+    <string name="daring">daring</string>
+    <string name="defiant">defiant</string>
+    <string name="demanding">demanding</string>
+    <string name="dependent">dependent</string>
+    <string name="disobedient">disobedient</string>
+    <string name="eager_to_please">eager-to-please</string>
+    <string name="easy_to_train">easy-to-train</string>
+    <string name="gentle">gentle</string>
+    <string name="greedy">greedy</string>
+    <string name="half_obedient">half-obedient</string>
+    <string name="housebroken">housebroken</string>
+    <string name="independent">independent</string>
+    <string name="intelligent">intelligent</string>
+    <string name="joyful">joyful</string>
+    <string name="kid_friendly">kid-friendly</string>
+    <string name="leashed">leashed</string>
+    <string name="lazy">lazy</string>
+    <string name="naughty">naughty</string>
+    <string name="obedient">obedient</string>
+    <string name="people_friendly">people-friendly</string>
+    <string name="playful">playful</string>
+    <string name="potty_trained">potty-trained</string>
+    <string name="quirky">quirky</string>
+    <string name="rambunctious">rambunctious</string>
+    <string name="rescued">rescued</string>
+    <string name="sensitive">sensitive</string>
+    <string name="submissive">submissive</string>
+    <string name="sweet">sweet</string>
+    <string name="territorial">territorial</string>
+    <string name="trainable">trainable</string>
+    <string name="trained">trained</string>
+    <string name="vocal">vocal</string>
+    <string name="well_trained">well-trained</string>
+    <string name="wild">wild</string>
+    <string name="willing_to_learn">willing-to-learn</string>
+    <string name="messages">VIEW MESSAGES</string>
+    <string name="send">SEND</string>
+    <string name="message">TYPE MESSAGE HERE</string>
+    <string name="titleMessages">MESSAGES</string>
+    <string name="reply">REPLY</string>
+    <string name="ageTitle">AGE</string>
+    <string name="puppy">Puppy</string>
+    <string name="young">Young</string>
+    <string name="adult">Adult</string>
+    <string name="senior">Senior</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="spayNeutertitle">SPAY OR NEUTER</string>
+    <string name="sizeTitle">SIZE</string>
+    <string name="xsmallTitle">XSMALL</string>
+    <string name="smallTitle">SMALL</string>
+    <string name="mediumTitle">MEDIUM</string>
+    <string name="largeTitle">LARGE</string>
+    <string name="xlargeTitle">XLARGE</string>
+    <string name="shyTitle">SHY</string>
+    <string name="outgoingTitle">OUTGOING</string>
+    <string name="notSureTitle">NOT SURE</string>
+    <string name="shyOutgoingTitle">SHY OR OUTGOING</string>
+</resources>

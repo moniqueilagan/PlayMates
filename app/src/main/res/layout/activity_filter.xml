@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.playmate.filter">
+
+    <Button
+        android:id="@+id/done_Matches"
+        android:layout_width="165dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/done"
+        app:backgroundTint="#2196F3"
+        app:layout_constraintBottom_toTopOf="@+id/filterPopUp_Matches"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ScrollView
+        android:id="@+id/filterPopUp_Matches"
+        android:layout_width="167dp"
+        android:layout_height="0dp"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/done_Matches"
+        tools:visibility="visible">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/age_txt_matches"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/ageTitle"
+                android:textSize="20sp" />
+
+            <CheckBox
+                android:id="@+id/age1_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="onAgeCheckboxClicked"
+                android:text="@string/puppy" />
+
+            <CheckBox
+                android:id="@+id/age2_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="onAgeCheckboxClicked"
+                android:text="@string/young" />
+
+            <CheckBox
+                android:id="@+id/age3_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="onAgeCheckboxClicked"
+                android:text="@string/adult" />
+
+            <CheckBox
+                android:id="@+id/age4_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="onAgeCheckboxClicked"
+                android:text="@string/senior" />
+
+            <TextView
+                android:id="@+id/spayNeuter_txt_matches"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/spayNeutertitle"
+                android:textSize="20sp" />
+
+            <RadioGroup
+                android:id="@+id/spayNeuter_radio"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <RadioButton
+                    android:id="@+id/yesSpayNeuter"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="onSpayNeuterRadioButtonClicked"
+                    android:text="@string/yes" />
+
+                <RadioButton
+                    android:id="@+id/noSpayNeuter"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="onSpayNeuterRadioButtonClicked"
+                    android:text="@string/no" />
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/size_txt_matches"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sizeTitle"
+                android:textSize="20sp" />
+
+            <CheckBox
+                android:id="@+id/size1_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="onSizeCheckboxClicked"
+                android:text="@string/xsmallTitle" />
+
+            <CheckBox
+                android:id="@+id/size2_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="onSizeCheckboxClicked"
+                android:text="@string/smallTitle" />
+
+            <CheckBox
+                android:id="@+id/size3_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="onSizeCheckboxClicked"
+                android:text="@string/mediumTitle" />
+
+            <CheckBox
+                android:id="@+id/size4_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="onSizeCheckboxClicked"
+                android:text="@string/largeTitle" />
+
+            <CheckBox
+                android:id="@+id/size5_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="onSizeCheckboxClicked"
+                android:text="@string/xlargeTitle" />
+
+            <TextView
+                android:id="@+id/shyOutgoing_txt_matches"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/shyOutgoingTitle" />
+
+            <RadioGroup
+                android:id="@+id/shyOutgoing_radio"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <RadioButton
+                    android:id="@+id/shy_btn"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="onShyOutgoingRadioButtonClicked"
+                    android:text="@string/shyTitle" />
+
+                <RadioButton
+                    android:id="@+id/outgoing_btn"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="onShyOutgoingRadioButtonClicked"
+                    android:text="@string/outgoingTitle" />
+
+                <RadioButton
+                    android:id="@+id/notsure_btn"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="onShyOutgoingRadioButtonClicked"
+                    android:text="@string/notSureTitle" />
+            </RadioGroup>
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

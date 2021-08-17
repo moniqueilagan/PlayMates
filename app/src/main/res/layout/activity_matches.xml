@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Matches">
+
+    <ListView
+        android:id="@+id/listView_matches"
+        android:layout_width="0dp"
+        android:layout_height="550dp"
+        android:clickable="true"
+        android:focusable="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+    </ListView>
+
+    <Button
+        android:id="@+id/back_matches_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginRight="40dp"
+        android:text="@string/back"
+        app:backgroundTint="#2196F3"
+        app:layout_constraintEnd_toStartOf="@+id/filter_matches_btn"
+        app:layout_constraintTop_toBottomOf="@+id/listView_matches" />
+
+    <Button
+        android:id="@+id/filter_matches_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="76dp"
+        android:layout_marginRight="76dp"
+        android:text="@string/filter"
+        app:backgroundTint="#2196F3"
+        app:layout_constraintBaseline_toBaselineOf="@+id/back_matches_btn"
+        app:layout_constraintEnd_toEndOf="@+id/listView_matches" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

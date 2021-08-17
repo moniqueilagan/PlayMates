@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "771213282521",
+    "firebase_url": "https://playmates-default-rtdb.firebaseio.com",
+    "project_id": "playmates",
+    "storage_bucket": "playmates.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:771213282521:android:19f3ea424719e157e282c8",
+        "android_client_info": {
+          "package_name": "com.example.playmates"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "771213282521-6g6gjp1ugc6bjb9fu6docn1fqr4ratd9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBiEV6l0q0yBskXubBMQP9mNABuQv-UZgY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "771213282521-6g6gjp1ugc6bjb9fu6docn1fqr4ratd9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
